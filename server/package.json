@@ -1,0 +1,51 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server for todo",
+  "main": "index.js",
+  "keywords": [
+    "server",
+    "todo"
+  ],
+  "author": "Zhenya Bondarev",
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.9",
+    "npm": ">=3.10"
+  },
+  "babel": {
+    "presets": [
+      "latest",
+      "stage-0"
+    ],
+    "plugins": [
+      "transform-runtime"
+    ]
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "2.8.1",
+    "express": "^4.14.0",
+    "lodash": "^4.17.2",
+    "mongoose": "^4.7.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.8",
+    "babel-plugin-rewire": "^1.0.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-react-optimize": "^1.0.1",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "babel-template": "^6.16.0",
+    "babel-types": "^6.19.0",
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node index"
+  }
+}
