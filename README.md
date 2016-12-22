@@ -2,7 +2,7 @@
 ##Require
 Node.js, Mongo
 
-##Install install dependencies
+##Install dependencies
 npm install
 cd server && npm install
 
